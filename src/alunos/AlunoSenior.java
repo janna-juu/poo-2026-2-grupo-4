@@ -2,9 +2,9 @@ package alunos;
 
 //classe dos alunos seniors
 
-class alunoSenior extends Aluno{
+public class AlunoSenior extends Aluno{
 
-    public alunoSenior(String nome, String cpf, int idade){
+    public AlunoSenior(String nome, String cpf, int idade){
         super(nome,cpf,idade);
     }
 

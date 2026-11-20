@@ -2,7 +2,7 @@ package alunos;
 
 // classe mãe 
 
-abstract class Aluno {
+public abstract class Aluno {
     private String nome;
     private String cpf;
     private int idade;
@@ -20,6 +20,11 @@ abstract class Aluno {
             throw new IllegalArgumentException("CPF Inválido");
         
         }
+
+        if (idade < 7){
+            throw new IllegalArgumentException("Idade insuficiente");
+        }
+        
     }
 
     public String consultarNome() {

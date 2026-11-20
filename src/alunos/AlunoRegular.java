@@ -2,9 +2,9 @@ package alunos;
 
 //subclasse dos alunos regulares
 
-class alunoRegular extends Aluno{
+public class AlunoRegular extends Aluno{
 
-    public alunoRegular(String nome, String cpf, int idade){
+    public AlunoRegular(String nome, String cpf, int idade){
         super(nome,cpf,idade);
     }
    
